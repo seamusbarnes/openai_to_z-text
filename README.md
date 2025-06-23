@@ -29,3 +29,8 @@
 ### Connecting to Broader Knowledge
 
 1. Enrich your data by connecting place mentions to Wikipedia/Gazetteers—ask GPT for modern equivalents, alternate names, or notable facts.
+   from openai import OpenAI
+   client = OpenAI()
+
+response = client.responses.retrieve("resp_123")
+print(response)
